@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Nov 03 12:34:34 IST 2022","Thu Nov 03 12:34:43 IST 2022","8836","","Dynamic loading Page","","Dynamic loading Page","wait for the hidden element to show","wait for the hidden element to show",""
+"passed","Thu Nov 03 12:34:35 IST 2022","Thu Nov 03 12:34:39 IST 2022","4618","","Main Page","","Main Page","Verify List items","Verify List items",""
+"passed","Thu Nov 03 12:34:35 IST 2022","Thu Nov 03 12:34:41 IST 2022","5911","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Thu Nov 03 12:34:41 IST 2022","Thu Nov 03 12:34:41 IST 2022","581","","My Login application","","My Login application","should logout and verify logout alert message","should logout and verify logout alert message",""

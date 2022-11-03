@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1667455314779' stop='1667455319982'>
+    <name>Dynamic loading Page</name>
+    <title>Dynamic loading Page</title>
+    <test-cases>
+        <test-case start='1667455314779' status='failed' stop='1667455319982'>
+            <name>wait for the hidden element to show</name>
+            <title>wait for the hidden element to show</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.88'/>
+            </parameters>
+            <steps>
+                <step start='1667455314781' status='passed' stop='1667455314805'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2a104072-6e01-4f9b-9024-01b8b53926f5-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='51dd9e55-2644-44de-9472-2f1c91173a2c-attachment.json' type='application/json' size='1023'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667455314809' status='passed' stop='1667455319773'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b299aa15-a903-424f-9a63-65a12dbcc268-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667455319775' status='passed' stop='1667455319792'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a5d41400-bfe3-490a-8813-010938a9e4f6-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='4d79a2cc-3ef3-4ff8-9542-69120c88e90d-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667455319796' status='passed' stop='1667455319815'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8ee5aa22-0eb3-495e-a18e-86d890273d91-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='ae7a0fb6-b920-4312-896e-07cedc0b63ba-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667455319816' status='passed' stop='1667455319856'>
+                    <name>POST /session/:sessionId/element/c950d205-032c-41c6-b43b-ad14ff423cdc/click</name>
+                    <title>POST /session/:sessionId/element/c950d205-032c-41c6-b43b-ad14ff423cdc/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1667455319856' status='passed' stop='1667455319870'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='657b9b68-3f5a-4dad-84fa-9f7e31c8145f-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='e69b820a-0da1-41bf-b726-68973af5f159-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1667455319875' status='passed' stop='1667455319981'>
+                    <name>GET /session/:sessionId/element/047c3e5e-7add-493e-8f29-6018dacbb02e/text</name>
+                    <title>GET /session/:sessionId/element/047c3e5e-7add-493e-8f29-6018dacbb02e/text</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='68311cde-e6ad-4970-ba89-ded60d3e6264-attachment.png' type='image/png' size='46830'/>
+                    </attachments>
+                    <steps>
+                        <step start='1667455319876' status='passed' stop='1667455319887'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                - Expected  - 1
+                + Received  + 1
+                
+                - Object {}
+                + Promise {}</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                - Expected  - 1
+                + Received  + 1
+                
+                - Object {}
+                + Promise {}
+                    at Context.&lt;anonymous> (C:\Users\MMandal\wdio-v7\test\specs\dynamic-loading.e2e.js:14:38)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
